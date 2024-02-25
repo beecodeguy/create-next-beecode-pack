@@ -4,7 +4,7 @@
 
 Starter file which have following installed:
 
-- NextJs 13
+- NextJs 14
 - Storybook
 - eslint
 - husky
@@ -17,7 +17,7 @@ Starter file which have following installed:
 You can clone this repo and start working without any hassle for you to think about project setup.
 Everything had been set up for you.
 
-## NODE VERSION USED ==> (v16.14.0)
+## NODE VERSION USED ==> (v20.0.0)
 
 If you have difficulty in installing the packages then it is recommended for you to use the Version mentioned above. (v16.14.0)
 
@@ -74,7 +74,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3008](http://localhost:3008) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 

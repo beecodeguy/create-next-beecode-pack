@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=16.14.0",
+    "node": ">=20.0.0",
     "yarn": ">=1.22.0",
     "npm": "please user yarn!"
   },
@@ -15,8 +15,6 @@
     "lint:fix": "eslint --debug src/ --fix",
     "prettier": "prettier --write .",
     "storybook": "storybook dev -p 6006 -s ./public",
-    "build-storybook": "storybook build -s public",
-    "deploy-storybook": "storybook-to-aws-s3 --bucket-path=story.sharebigya.com/ --aws-profile=NONE",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -31,14 +29,14 @@
     "eslint": "^8.2.0",
     "eslint-config-next": "^13.4.3",
     "lucide-react": "^0.252.0",
-    "next": "^13.4.3",
+    "next": "^14.1.0",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.7",
     "redux": "^4.2.1",
     "tailwind-merge": "^1.13.2",
-    "tailwindcss": "^3.3.2",
+    "tailwindcss": "^3.4.1",
     "tailwindcss-animate": "^1.0.6",
     "typescript": "5.0.4",
     "uuid": "^9.0.0"

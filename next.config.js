@@ -2,10 +2,6 @@
 const path = require("path");
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-    serverActions: true,
-  },
   reactStrictMode: true,
   images: {
     domains: [], // for importing images

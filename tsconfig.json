@@ -17,6 +17,8 @@
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": "src",
+    "downlevelIteration": true,
+    "noImplicitAny": false,
     "plugins": [
       {
         "name": "typescript-plugin-css-modules"
